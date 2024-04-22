@@ -1,4 +1,4 @@
-/*---------------- Bloco blog -------------*/
+/*---------------- Css blog -------------*/
 
 /*---------------- Tags globais -------------*/
 
@@ -236,6 +236,8 @@ CONTENT
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/banner1.webp");
 }
 
 .swiper-slide h1 {
@@ -289,10 +291,10 @@ CONTENT
 
 @media only screen and (max-width: 768px) {
   .swiper-slide h1 {
-    font-size: 32px !important;
+    font-size: 36px !important;
   }
   .swiper-slide .text {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 }
 
@@ -356,6 +358,8 @@ CONTENT
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/fundo.webp");
 }
 
 /*---------------------------------- Bloco Duvidas ------------------------------------*/
