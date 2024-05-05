@@ -171,6 +171,10 @@ header a {
   }
 }
 
+header h1{
+  margin: 0;
+}
+
 #logo {
   font-weight: bold;
   background: transparent;
