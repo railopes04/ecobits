@@ -48,6 +48,7 @@ a {
   --corTerciaria: rgb(232, 238, 114);
   --cortext: #212529;
   --cortext-two: #fff;
+  --cortext-three: #000;
 }
 
 .rl-btn {
@@ -328,6 +329,7 @@ CONTENT
   background: var(--cortext-two);
   padding: 25px;
   border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0,0,0,.2);
 }
 
 .colthree__icone {
@@ -348,6 +350,47 @@ CONTENT
 
 .bl-sobre .text {
   color: var(--cortext);
+}
+
+/*---------------------------------- Bloco Tipos ------------------------------------*/
+
+.bl-tipos__box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bl-tipos__item{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background: var(--cortext-two);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0,0,0,.2);
+  transition: 0.3s ease-in-out all;
+  &:hover{
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out all;
+  }
+}
+
+.bl-tipos__img{
+  width: 100px;
+}
+
+.bl-tipos .text{
+  margin: 0;
+}
+
+.bl-tipos__span{
+  color: var(--cortext);
+  font-weight: 600;
+
 }
 
 /*---------------------------------- Bloco Parallax ------------------------------------*/
