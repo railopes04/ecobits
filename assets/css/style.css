@@ -301,11 +301,6 @@ CONTENT
     font-size: 18px !important;
   }
 }
-@media only screen and (max-width: 430px) {
-  .swiper-slide h1 {
-    font-size: 32px !important;
-  }
-}
 @media only screen and (max-width: 400px) {
   .swiper-slide h1 {
     font-size: 28px !important;
