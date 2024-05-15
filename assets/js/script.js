@@ -25,7 +25,7 @@ var swiper = new Swiper(".enderecoSwiper", {
    nextEl: ".endereco-button-next",
    prevEl: ".endereco-button-prev",
   },
-  slidesPerView: 1.3,
+  slidesPerView: 1.2,
   initialSlide: 0,
   loopedSlides: 3,
   visibilityFullFit: true,
